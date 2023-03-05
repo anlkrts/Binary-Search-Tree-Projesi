@@ -1,0 +1,24 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Çözüm:
+                                                                          7
+                                                                         / \ 
+                                                                        5   8
+                                                                       / \   \
+                                                                      1   6   9
+                                                                     / \
+                                                                    0   3
+                                                                       / \
+                                                                      2   4
+                                                                      
+                                                                      
+Root=7  
+5 ekledim. Root'a baktım. Root'tan küçük sola ekledim. 5 7'nin solunda bulunur. 
+1 ekledim. Root'a baktım. Root'tan küçük sola devam ettim.5 var. 5 den küçük sola devam ettim. 1 5'in solunda bulunur.
+8 ekledim. Root'a baktım. Root'tan büyük sağa ekledim. 8 7'nin sağında bulunur.
+3 ekledim. Root'a baktım. Root'tan küçük sola devam ettim.5 var. 5 den küçük sola devam ettim. 1 var. 1'den büyük sağa devam ettim. 3 1'in sağında bulunur.
+6 ekledim. Root'a baktım. Root'tan küçük sola devam ettim.5 var. 5 den büyük sağa devam ettim. 6 5'in sağında bulunur.
+0 ekledim. Root'a baktım. Root'tan küçük sola devam ettim.5 var. 5 den küçük sola devam ettim. 1 var. 1'den küçük sola devam ettim. 0 1'in solunda bulunur.
+9 ekledim. Root'a baktım. Roottan büyük sağa devam ettim. 8 var. 8 den büyük sağa devam ettim. 9 8'in sağında bulunur.
+4 ekledim. Root'a baktım. Root'tan küçük sola devam ettim.5 var. 5 den küçük sola devam ettim. 1 var. 1'den büyük sağa devam ettim.3 var. 3 den büyük sağa devam ettim.4 3'ün sağında bulunur.
+2 ekledim. Root'a baktım. Root'tan küçük sola devam ettim.5 var. 5 den küçük sola devam ettim. 1 var. 1'den büyük sağa devam ettim.3 var. 3 den küçük sola devam ettim.2 3'ün solunda bulunur.
